@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:id="root" prefHeight="300.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutY="14.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="%Buildings">
+               <content>
+                  <ListView fx:id="listViewBuildings" maxHeight="1.7976931348623157E308" />
+               </content>
+          </Tab>
+          <Tab text="%Units">
+               <content>
+                  <ListView fx:id="listViewUnits" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" />
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>
